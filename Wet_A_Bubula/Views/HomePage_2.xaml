@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wet_A_Bubula.HomePage_2"
+             xmlns:vm="clr-namespace:Wet_A_Bubula.ViewModels"
+             Shell.NavBarIsVisible="False">
+
+    <ContentPage.BindingContext>
+        <vm:LoginPageViewModel />
+    </ContentPage.BindingContext>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="393" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15" />
+            <RowDefinition Height="91" />
+            <RowDefinition Height="108" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="35" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="15" />
+        </Grid.RowDefinitions>
+
+        <Border Grid.Column="0"
+                Background="#141414"
+                Grid.Row="0"
+                Grid.RowSpan="6" />
+        <Frame Grid.Column="0"
+               Background="White"
+               Grid.Row="2"
+               Grid.RowSpan="8"
+               CornerRadius="30"
+               BorderColor="Transparent"/>
+
+ 
+
+        <StackLayout Margin="20,10,20,20"
+                     Grid.Row="1"
+                     Grid.Column="0"
+                     Orientation="Horizontal">
+
+            <Label Text="Hi"
+                   TextColor="White"
+                   FontSize="Large"
+                   Margin="15,13,0,0" />
+
+            <Label Text="{Binding Name}"
+                   TextColor="White"
+                   FontSize="Large"
+                   Margin="8,13,0,0" />
+
+            <Image Source="Resources/Images/hand.png"
+                   HorizontalOptions="Start"
+                   WidthRequest="40"
+                   HeightRequest="40"
+                   Margin="10,0,0,0" />
+
+        </StackLayout>
+
+        <Image Source="Resources/Images/pigeon.png"
+               HorizontalOptions="End"
+               Grid.Row="1"
+               WidthRequest="60"
+               HeightRequest="60"
+               Margin="0,0,20,10" />
+
+        <StackLayout Grid.Row="2"
+                     Orientation="Horizontal"
+                     HorizontalOptions="CenterAndExpand">
+            <Button Text="Nearby"
+                    BackgroundColor="#F6F6F6"
+                    TextColor="#C1C1C1"
+                    FontFamily="Montserrat"
+                    CornerRadius="18"
+                    WidthRequest="111"
+                    HeightRequest="45"
+                    Margin="0,19,0,0"
+                    Command="{Binding GoToHomePageCommand}" />
+
+            <Button Text="Latest"
+                    BackgroundColor="#141414"
+                    TextColor="White"
+                    FontFamily="Montserrat"
+                    CornerRadius="18"
+                    WidthRequest="111"
+                    HeightRequest="45"
+                    Margin="23,19,0,0"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="2"
+                     HorizontalOptions="Center"
+                     Margin="130,100,0,0">
+            <CollectionView ItemsSource="{Binding PastAppointments}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label Text="{Binding Leczenie}"
+                                   FontSize="16"
+                                   TextColor="Black" />
+                            <Label Text="{Binding Data}"
+                                   FontSize="16"
+                                   TextColor="Red" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+
+        <StackLayout Grid.Row="5"
+                     Orientation="Horizontal"
+                     HorizontalOptions="Center"
+                     Spacing="50">
+
+
+            <ImageButton  Source="Resources/Images/home_icon_dark.png"
+                          WidthRequest="22"
+                          HeightRequest="22" />
+            <ImageButton Source="visit_icon.png"
+                         Command="{Binding GoToVisitsPageCommand}"
+                         WidthRequest="22"
+                         HeightRequest="22" />
+            <ImageButton Source="profile_icon.png"
+                         Command="{Binding GoToProfilePageCommand}"
+                         WidthRequest="22"
+                         HeightRequest="22" />
+        </StackLayout>
+        <Image Source="dot.png"
+               Grid.Row="6"
+               Margin="0,0,144,0" />
+    </Grid>
+</ContentPage>

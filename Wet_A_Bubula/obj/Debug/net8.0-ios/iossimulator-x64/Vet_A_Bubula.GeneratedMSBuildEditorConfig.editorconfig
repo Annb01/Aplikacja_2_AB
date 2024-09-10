@@ -1,0 +1,83 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Wet_A_Bubula
+build_property.ProjectDir = C:\Users\bubul\Documents\School\Prog IV\Wet_A_Bubula\Wet_A_Bubula\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/bubul/Documents/School/Prog IV/Wet_A_Bubula/Wet_A_Bubula/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Wet_A_Bubula.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/bubul/Documents/School/Prog IV/Wet_A_Bubula/Wet_A_Bubula/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Wet_A_Bubula.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/bubul/Documents/School/Prog IV/Wet_A_Bubula/Wet_A_Bubula/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Wet_A_Bubula.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/bubul/Documents/School/Prog IV/Wet_A_Bubula/Wet_A_Bubula/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Wet_A_Bubula.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/bubul/Documents/School/Prog IV/Wet_A_Bubula/Wet_A_Bubula/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Wet_A_Bubula.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/bubul/Documents/School/Prog IV/Wet_A_Bubula/Wet_A_Bubula/Views/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Wet_A_Bubula.Views.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
+
+[C:/Users/bubul/Documents/School/Prog IV/Wet_A_Bubula/Wet_A_Bubula/Views/HomePage_2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Wet_A_Bubula.Views.HomePage_2.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HomePage_2.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HomePage_2.xaml
+
+[C:/Users/bubul/Documents/School/Prog IV/Wet_A_Bubula/Wet_A_Bubula/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Wet_A_Bubula.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
+[C:/Users/bubul/Documents/School/Prog IV/Wet_A_Bubula/Wet_A_Bubula/Views/ProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Wet_A_Bubula.Views.ProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProfilePage.xaml
+
+[C:/Users/bubul/Documents/School/Prog IV/Wet_A_Bubula/Wet_A_Bubula/Views/RegistryPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Wet_A_Bubula.Views.RegistryPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RegistryPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RegistryPage.xaml
+
+[C:/Users/bubul/Documents/School/Prog IV/Wet_A_Bubula/Wet_A_Bubula/Views/VisitsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Wet_A_Bubula.Views.VisitsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\VisitsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\VisitsPage.xaml

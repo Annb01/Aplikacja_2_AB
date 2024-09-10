@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             
+             x:Class="Wet_A_Bubula.LoginPage"
+             Shell.NavBarIsVisible="False">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15" />
+            <ColumnDefinition Width="363" />
+            <ColumnDefinition Width="15" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15" />
+            <RowDefinition Height="239" />
+            <RowDefinition Height="124" />
+            <RowDefinition Height="410" />
+            <RowDefinition Height="15" />
+        </Grid.RowDefinitions>
+
+        <Border Grid.Column="0"
+                Grid.ColumnSpan="3"
+                Background="#141414"
+                Grid.Row="0"
+                Grid.RowSpan="5" />
+
+        <Image Grid.Row="1"
+                   Grid.Column="1"
+                   Grid.RowSpan="2"
+                   Source="Resources/Images/kat5.png"
+                   Aspect="AspectFill"/>
+
+        <Label Text="Welcome to"
+                   TextColor="Black"
+                   FontSize="25"
+                   FontFamily="Trebuchet MS"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start"
+                   Margin="20,45,0,0"
+                   Grid.Column="1"
+                   Grid.Row="2"
+                   FontAttributes="Bold"/>
+
+        <Label Text="Animal Health Care Center"
+               TextColor="Black"
+               FontSize="15"
+               FontFamily="Trebuchet MS"
+               VerticalOptions="Start"
+               HorizontalOptions="Start"
+               Margin="20,78,0,0"
+               Grid.Column="1"
+               Grid.Row="2"
+               FontAttributes="Bold"/>
+
+        <StackLayout Grid.Column="1"
+                     Grid.Row="3"
+                     Orientation="Vertical"
+                     HorizontalOptions="CenterAndExpand"
+                     Margin="0,70,0,0">
+
+            <Frame BackgroundColor="Transparent" BorderColor="White" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                <StackLayout Orientation="Horizontal">
+                    <Frame BackgroundColor="White" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                        <Image Aspect="Fill"
+                               Margin="0" />
+                    </Frame>
+                    <Entry Text="{Binding Username}"
+                           Placeholder="Username"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center"
+                           HorizontalOptions="FillAndExpand"
+                           Margin="0,0,180,0" />
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="Transparent"
+                   BorderColor="White"
+                   Padding="0"
+                   HorizontalOptions="FillAndExpand"
+                   CornerRadius="30"
+                   Margin="0,20,0,0">
+                <StackLayout Orientation="Horizontal">
+                    <Frame BackgroundColor="White"
+                           HeightRequest="40"
+                           WidthRequest="40"
+                           CornerRadius="30"
+                           Padding="0"
+                           Margin="5">
+                        <Image Aspect="Fill"
+                               Margin="0" />
+                    </Frame>
+                    <Entry Text="{Binding Password}"
+                           Placeholder="Password"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center"
+                           IsPassword="True"
+                           HorizontalOptions="FillAndExpand"
+                           Margin="0,0,180,0" />
+                </StackLayout>
+            </Frame>
+
+            <Button Text="LOG IN"
+                    BackgroundColor="#B0B166"
+                    TextColor="Black"
+                    FontFamily="Montserrat"
+                    CornerRadius="30"
+                    WidthRequest="160"
+                    HeightRequest="40"
+                    Margin="0,40,0,0"
+                    Command="{Binding LoginCommand}"/>
+
+
+
+            <Button Text="Sign Up"
+                    BackgroundColor="Transparent"
+                   TextColor="#CA5A32"
+                   FontSize="Small"
+                    CornerRadius="100"
+                   HorizontalOptions="CenterAndExpand"
+                   Margin="0,60,0,0"
+                   Clicked="SignUp"/>
+        </StackLayout>
+
+     
+
+
+    </Grid>
+</ContentPage>

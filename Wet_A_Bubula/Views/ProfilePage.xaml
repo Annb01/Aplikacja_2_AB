@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wet_A_Bubula.ProfilePage"
+             Shell.NavBarIsVisible="False">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="393" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="300" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="35" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="15" />
+        </Grid.RowDefinitions>
+
+        <StackLayout Grid.Row="2"
+                     Orientation="Horizontal"
+                     HorizontalOptions="Center"
+                     Spacing="50">
+
+            <ImageButton  Source="Resources/Images/home_icon.png"
+                          WidthRequest="22"
+                          HeightRequest="22"
+                          Command="{Binding GoToHomePageCommand}" />
+            <ImageButton Source="visit_icon.png"
+                         Command="{Binding GoToVisitsPageCommand}"
+                         WidthRequest="22"
+                         HeightRequest="22" />
+            <ImageButton Source="profile_icon_dark.png"
+                         WidthRequest="22"
+                         HeightRequest="22" />
+
+        </StackLayout>
+        <Image Source="dot.png"
+               Grid.Row="3"
+               Margin="144,0,0,0"/>
+
+
+        <Frame BackgroundColor="White"
+               BorderColor="White"
+               CornerRadius="15"
+               WidthRequest="309"
+               HeightRequest="400"
+               Padding="8"
+               HasShadow="True"
+               Margin="0,300,0,0"
+               Grid.Row="0">
+            <StackLayout HorizontalOptions="Center">
+                <Label Text="Profile"
+                       FontAttributes="Bold"
+                       Margin="57,0,0,0"
+                       FontSize="Large"/>
+                <Image Source="Resources/Images/pigeon.png"
+                       HeightRequest="100"
+                       Margin="0,20,0,30" />
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="User Name:"
+                           FontAttributes="Bold"
+                           Margin="0,0,10,0" />
+                    <Label Text="{Binding User.Imie}" />
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="User Name:"
+                           FontAttributes="Bold"
+                           Margin="0,0,10,0" />
+                    <Label Text="{Binding User.Nazwisko}" />
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="User Name:"
+                           FontAttributes="Bold"
+                           Margin="0,0,10,0" />
+                    <Label Text="{Binding User.Ulica}" />
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="User Name:"
+                           FontAttributes="Bold"
+                           Margin="0,0,10,0" />
+                    <Label Text="{Binding User.Miasto}" />
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="User Name:"
+                           FontAttributes="Bold"
+                           Margin="0,0,10,0" />
+                    <Label Text="{Binding User.KodPocztowy}" />
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="User Name:"
+                           FontAttributes="Bold"
+                           Margin="0,0,10,0" />
+                    <Label Text="{Binding User.Kraj}" />
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="User Name:"
+                           FontAttributes="Bold"
+                           Margin="0,0,10,0" />
+                    <Label Text="{Binding User.Telefon}" />
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Pet Name:"
+                           FontAttributes="Bold"
+                           Margin="0,0,10,0" />
+                    <Label Text="{Binding Pet.Animal}" />
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Pet Gender:"
+                           FontAttributes="Bold"
+                           Margin="0,0,10,0" />
+                    <Label Text="{Binding Pet.Plec}" />
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Pet Species:"
+                           FontAttributes="Bold"
+                           Margin="0,0,10,0" />
+                    <Label Text="{Binding Pet.Gatunek}" />
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+
+        <Button Text="Log out"
+                Grid.Row="1"
+                BackgroundColor="Black"
+                TextColor="White"
+                FontSize="Small"
+                CornerRadius="100"
+                HorizontalOptions="Center"
+                HeightRequest="40"
+                WidthRequest="100"
+                Margin="0,160,0,0"
+                Clicked="LogOut" />
+
+    </Grid>
+</ContentPage>

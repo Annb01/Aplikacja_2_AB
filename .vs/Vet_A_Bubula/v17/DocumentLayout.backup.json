@@ -1,0 +1,347 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|c:\\users\\bubul\\documents\\school\\prog iv\\wet_a_bubula\\aplikacja_2_ab\\wet_a_bubula\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|solutionrelative:wet_a_bubula\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|c:\\users\\bubul\\documents\\school\\prog iv\\wet_a_bubula\\aplikacja_2_ab\\wet_a_bubula\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|solutionrelative:wet_a_bubula\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|c:\\users\\bubul\\documents\\school\\prog iv\\wet_a_bubula\\aplikacja_2_ab\\wet_a_bubula\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|solutionrelative:wet_a_bubula\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|c:\\users\\bubul\\documents\\school\\prog iv\\wet_a_bubula\\aplikacja_2_ab\\wet_a_bubula\\views\\homepage_2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|solutionrelative:wet_a_bubula\\views\\homepage_2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|c:\\users\\bubul\\documents\\school\\prog iv\\wet_a_bubula\\aplikacja_2_ab\\wet_a_bubula\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|solutionrelative:wet_a_bubula\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|c:\\users\\bubul\\documents\\school\\prog iv\\wet_a_bubula\\aplikacja_2_ab\\wet_a_bubula\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|solutionrelative:wet_a_bubula\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|c:\\users\\bubul\\documents\\school\\prog iv\\wet_a_bubula\\aplikacja_2_ab\\wet_a_bubula\\views\\registrypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|solutionrelative:wet_a_bubula\\views\\registrypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|c:\\users\\bubul\\documents\\school\\prog iv\\wet_a_bubula\\aplikacja_2_ab\\wet_a_bubula\\views\\registrypage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|solutionrelative:wet_a_bubula\\views\\registrypage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|c:\\users\\bubul\\documents\\school\\prog iv\\wet_a_bubula\\aplikacja_2_ab\\wet_a_bubula\\views\\visitspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|solutionrelative:wet_a_bubula\\views\\visitspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|c:\\users\\bubul\\documents\\school\\prog iv\\wet_a_bubula\\aplikacja_2_ab\\wet_a_bubula\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|solutionrelative:wet_a_bubula\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|c:\\users\\bubul\\documents\\school\\prog iv\\wet_a_bubula\\aplikacja_2_ab\\wet_a_bubula\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|solutionrelative:wet_a_bubula\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|c:\\users\\bubul\\documents\\school\\prog iv\\wet_a_bubula\\aplikacja_2_ab\\wet_a_bubula\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|solutionrelative:wet_a_bubula\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|c:\\users\\bubul\\documents\\school\\prog iv\\wet_a_bubula\\aplikacja_2_ab\\wet_a_bubula\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|solutionrelative:wet_a_bubula\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|c:\\users\\bubul\\documents\\school\\prog iv\\wet_a_bubula\\aplikacja_2_ab\\wet_a_bubula\\model\\veterinarianmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|solutionrelative:wet_a_bubula\\model\\veterinarianmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|c:\\users\\bubul\\documents\\school\\prog iv\\wet_a_bubula\\aplikacja_2_ab\\wet_a_bubula\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|solutionrelative:wet_a_bubula\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|c:\\users\\bubul\\documents\\school\\prog iv\\wet_a_bubula\\aplikacja_2_ab\\wet_a_bubula\\model\\petmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|solutionrelative:wet_a_bubula\\model\\petmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|c:\\users\\bubul\\documents\\school\\prog iv\\wet_a_bubula\\aplikacja_2_ab\\wet_a_bubula\\model\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|solutionrelative:wet_a_bubula\\model\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|c:\\users\\bubul\\documents\\school\\prog iv\\wet_a_bubula\\aplikacja_2_ab\\wet_a_bubula\\model\\appointmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|solutionrelative:wet_a_bubula\\model\\appointmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|c:\\users\\bubul\\documents\\school\\prog iv\\wet_a_bubula\\aplikacja_2_ab\\wet_a_bubula\\viewmodels\\loginpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{751E14FE-5109-4C1B-AA38-ED966273DB50}|Wet_A_Bubula\\Wet_A_Bubula.csproj|solutionrelative:wet_a_bubula\\viewmodels\\loginpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "Wet_A_Bubula\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "Wet_A_Bubula\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:21:13.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Wet_A_Bubula\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\MainPage.xaml",
+              "RelativeToolTip": "Wet_A_Bubula\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-10T10:19:45.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VisitsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Views\\VisitsPage.xaml",
+              "RelativeDocumentMoniker": "Wet_A_Bubula\\Views\\VisitsPage.xaml",
+              "ToolTip": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Views\\VisitsPage.xaml",
+              "RelativeToolTip": "Wet_A_Bubula\\Views\\VisitsPage.xaml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAGwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-10T10:19:08.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegistryPage2.xaml",
+              "DocumentMoniker": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Views\\RegistryPage2.xaml",
+              "RelativeDocumentMoniker": "Wet_A_Bubula\\Views\\RegistryPage2.xaml",
+              "ToolTip": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Views\\RegistryPage2.xaml",
+              "RelativeToolTip": "Wet_A_Bubula\\Views\\RegistryPage2.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-10T10:19:04.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegistryPage.xaml",
+              "DocumentMoniker": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Views\\RegistryPage.xaml",
+              "RelativeDocumentMoniker": "Wet_A_Bubula\\Views\\RegistryPage.xaml",
+              "ToolTip": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Views\\RegistryPage.xaml",
+              "RelativeToolTip": "Wet_A_Bubula\\Views\\RegistryPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-10T10:18:59.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Views\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "Wet_A_Bubula\\Views\\ProfilePage.xaml",
+              "ToolTip": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Views\\ProfilePage.xaml",
+              "RelativeToolTip": "Wet_A_Bubula\\Views\\ProfilePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-10T10:18:54.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Wet_A_Bubula\\Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "Wet_A_Bubula\\Views\\LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-10T10:18:49.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomePage_2.xaml",
+              "DocumentMoniker": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Views\\HomePage_2.xaml",
+              "RelativeDocumentMoniker": "Wet_A_Bubula\\Views\\HomePage_2.xaml",
+              "ToolTip": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Views\\HomePage_2.xaml",
+              "RelativeToolTip": "Wet_A_Bubula\\Views\\HomePage_2.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-10T10:18:43.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "Wet_A_Bubula\\Views\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Views\\HomePage.xaml",
+              "RelativeToolTip": "Wet_A_Bubula\\Views\\HomePage.xaml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAHYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-10T10:18:19.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Repositories\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "Wet_A_Bubula\\Repositories\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Repositories\\RepositoryBase.cs",
+              "RelativeToolTip": "Wet_A_Bubula\\Repositories\\RepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:16:11.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Wet_A_Bubula\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\AppShell.xaml",
+              "RelativeToolTip": "Wet_A_Bubula\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-10T10:19:43.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\App.xaml",
+              "RelativeDocumentMoniker": "Wet_A_Bubula\\App.xaml",
+              "ToolTip": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\App.xaml",
+              "RelativeToolTip": "Wet_A_Bubula\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-10T10:19:42.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Wet_A_Bubula\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Wet_A_Bubula\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:16:12.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VeterinarianModel.cs",
+              "DocumentMoniker": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Model\\VeterinarianModel.cs",
+              "RelativeDocumentMoniker": "Wet_A_Bubula\\Model\\VeterinarianModel.cs",
+              "ToolTip": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Model\\VeterinarianModel.cs",
+              "RelativeToolTip": "Wet_A_Bubula\\Model\\VeterinarianModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:16:10.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Model\\UserModel.cs",
+              "RelativeDocumentMoniker": "Wet_A_Bubula\\Model\\UserModel.cs",
+              "ToolTip": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Model\\UserModel.cs",
+              "RelativeToolTip": "Wet_A_Bubula\\Model\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:16:09.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PetModel.cs",
+              "DocumentMoniker": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Model\\PetModel.cs",
+              "RelativeDocumentMoniker": "Wet_A_Bubula\\Model\\PetModel.cs",
+              "ToolTip": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Model\\PetModel.cs",
+              "RelativeToolTip": "Wet_A_Bubula\\Model\\PetModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:16:08.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Model\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Wet_A_Bubula\\Model\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Model\\IUserRepository.cs",
+              "RelativeToolTip": "Wet_A_Bubula\\Model\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:16:06.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppointmentModel.cs",
+              "DocumentMoniker": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Model\\AppointmentModel.cs",
+              "RelativeDocumentMoniker": "Wet_A_Bubula\\Model\\AppointmentModel.cs",
+              "ToolTip": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\Model\\AppointmentModel.cs",
+              "RelativeToolTip": "Wet_A_Bubula\\Model\\AppointmentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:16:05.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\ViewModels\\LoginPageViewModel.cs",
+              "RelativeDocumentMoniker": "Wet_A_Bubula\\ViewModels\\LoginPageViewModel.cs",
+              "ToolTip": "C:\\Users\\bubul\\Documents\\School\\Prog IV\\Wet_A_Bubula\\Aplikacja_2_AB\\Wet_A_Bubula\\ViewModels\\LoginPageViewModel.cs",
+              "RelativeToolTip": "Wet_A_Bubula\\ViewModels\\LoginPageViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:13:52.364Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

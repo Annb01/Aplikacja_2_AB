@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wet_A_Bubula.RegistryPage2"
+             Shell.NavBarIsVisible="False">
+
+    <ScrollView Orientation="Vertical"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"
+                InputTransparent="False">
+        <StackLayout BackgroundColor="#141414">
+
+            <StackLayout Orientation="Horizontal">
+            <Button Text="X"
+                    BackgroundColor="#B0B166"
+                    TextColor="Black"
+                    FontFamily="Montserrat"
+                    CornerRadius="30"
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    Margin="5,5,0,0"
+                    Clicked="Back" />
+
+                <Label Text="Sign Up"
+                       TextColor="White"
+                       HorizontalOptions="Center"
+                       FontSize="Small"
+                       Margin="125,15,0,0"/>
+                
+            </StackLayout>
+            <Label Text="Pet"
+                   TextColor="White"
+                   HorizontalOptions="Center"
+                   FontSize="Large"
+                   Margin="0,50,0,20" />
+            <StackLayout Margin="0,20,0,0">
+                <Frame BackgroundColor="Transparent"
+                       BorderColor="White"
+                       Padding="0"
+                       WidthRequest="340"
+                       CornerRadius="30"
+                       Margin="0,20,0,0">
+                    <Entry Text="{Binding Animal}"
+                           Placeholder="Name"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           WidthRequest="280"
+                           VerticalOptions="Center"
+                           HorizontalOptions="StartAndExpand"
+                           Margin="30,0,0,0" />
+                </Frame>
+
+                <Frame BackgroundColor="Transparent"
+                       BorderColor="White"
+                       Padding="0"
+                       WidthRequest="340"
+                       CornerRadius="30"
+                       Margin="0,20,0,0">
+                    <Entry Text="{Binding Plec}"
+                           Placeholder="Sex"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center"
+                           WidthRequest="280"
+                           HorizontalOptions="StartAndExpand"
+                           Margin="30,0,30,0" />
+                </Frame>
+
+                <Frame
+                       BackgroundColor="Transparent"
+                       BorderColor="White"
+                       Padding="0"
+                       WidthRequest="340"
+                       CornerRadius="30"
+                       Margin="0,20,0,0">
+                    <Picker Title="Choose species"
+                            TitleColor="White"
+                            Margin="30,0,30,0"
+                            ItemsSource="{Binding AnimalSpeciesList}"
+                            SelectedItem="{Binding SelectedSpecies}">
+                    </Picker>
+                </Frame>
+
+                <Button Text="Sign Up"
+                        BackgroundColor="#B0B166"
+                        TextColor="Black"
+                        FontFamily="Montserrat"
+                        CornerRadius="30"
+                        WidthRequest="160"
+                        HeightRequest="40"
+                        Margin="0,40,0,0"
+                        Command="{Binding Registry2Command}" />
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+
+    
+</ContentPage>

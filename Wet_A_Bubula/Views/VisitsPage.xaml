@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wet_A_Bubula.VisitsPage"
+             Shell.NavBarIsVisible="False">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="393" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="600" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="35" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="15" />
+        </Grid.RowDefinitions>
+
+        <StackLayout Grid.Row="2"
+                     Orientation="Horizontal"
+                     HorizontalOptions="Center"
+                     Spacing="50">
+
+            <ImageButton  Source="Resources/Images/home_icon.png"
+                          WidthRequest="22"
+                          HeightRequest="22"
+                          Command="{Binding GoToHomePageCommand}"/>
+            <ImageButton Source="visit_icon_dark.png"
+                         
+                         WidthRequest="22"
+                         HeightRequest="22" />
+            <ImageButton Source="profile_icon.png"
+                         WidthRequest="22"
+                         HeightRequest="22"
+                         Command="{Binding GoToProfilePageCommand}"/>
+
+        </StackLayout>
+        <Image Source="dot.png"
+               Grid.Row="3"
+               Margin="3,0,0,0" />
+
+        <StackLayout>
+
+            <Label Text="New appointment"
+                   HorizontalOptions="Center"
+                   FontSize="Large"
+                   Margin="0,40,0,40"/>
+            <Frame BackgroundColor="White"
+                   BorderColor="White"
+                   CornerRadius="15"
+                   Margin="40,10,40,10"
+                   Padding="8"
+                   HasShadow="True">
+                <StackLayout>
+               
+                    <Picker Title="Choose treatment"
+                            TitleColor="LightGrey"
+                            TextColor="Black"
+                            ItemsSource="{Binding TreatmentList}"
+                            SelectedItem="{Binding SelectedTreatment}">
+                    </Picker>
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="White"
+                   BorderColor="White"
+                   CornerRadius="15"
+                   Margin="40,10,40,10"
+                   Padding="8"
+                   HasShadow="True">
+                <StackLayout>
+                  
+                    <Picker Title="Choose veterinarian"
+                            TitleColor="LightGrey"
+                            TextColor="Black"
+                            ItemsSource="{Binding VeterinarianList}"
+                            SelectedItem="{Binding SelectedVeterinarian}">
+                    </Picker>
+                </StackLayout>
+            </Frame>
+
+
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center">
+                <Frame BackgroundColor="White"
+                       BorderColor="White"
+                       CornerRadius="15"
+                       Margin="10,10,10,10"
+                       Padding="32,8,32,8"
+                       HasShadow="True">
+                    <StackLayout>
+                      
+                        <Label Text="Choose date"
+                               HorizontalOptions="Center"
+                               TextColor="LightGrey" />
+                        <DatePicker x:Name="datePicker"
+                                    HorizontalOptions="Center"
+                                    MinimumDate="{Binding minimDate}"
+                                    BindingContext="{Binding DataNowejWizyty}"
+                                    />
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="White"
+                       BorderColor="White"
+                       CornerRadius="15"
+                       Margin="10,10,10,10"
+                       Padding="32,8,32,8"
+                       HasShadow="True">
+                    <StackLayout>
+                      
+                        <Label Text="Choose time"
+                               HorizontalOptions="Center"
+                               TextColor="LightGrey"/>
+                        <TimePicker x:Name="timePicker"
+                                    HorizontalOptions="Center"
+                                    TextColor="Black"
+                                    BindingContext="{Binding CzasNowejWizyty}"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+
+            <Frame BackgroundColor="White"
+                   BorderColor="White"
+                   CornerRadius="15"
+                   WidthRequest="309"
+                   Padding="8"
+                   HasShadow="True"
+                   Margin="0,10,0,0"
+                >
+                <StackLayout Orientation="Horizontal">
+                    <Entry Text="{Binding Powod}"
+                           Placeholder="Reason"
+                           TextColor="LightGrey"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center"
+                           HorizontalOptions="FillAndExpand"
+                           Margin="5,0,5,0" />
+                </StackLayout>
+            </Frame>
+
+
+            <Button Text="ADD"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    FontFamily="Montserrat"
+                    CornerRadius="30"
+                    WidthRequest="160"
+                    HeightRequest="40"
+                    Margin="0,80,0,0"
+                    Clicked="OnAddButtonClicked" />
+        </StackLayout>
+        
+        
+        
+    </Grid>
+</ContentPage>

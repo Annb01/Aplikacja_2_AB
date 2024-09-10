@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wet_A_Bubula.RegistryPage"
+             Shell.NavBarIsVisible="False">
+    <ScrollView Orientation="Vertical"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"
+                InputTransparent="False">
+        <StackLayout BackgroundColor="#141414">
+
+
+            <StackLayout Orientation="Horizontal">
+                <Button Text="X"
+                        BackgroundColor="#B0B166"
+                        TextColor="Black"
+                        FontFamily="Montserrat"
+                        CornerRadius="30"
+                        WidthRequest="40"
+                        HeightRequest="40"
+                        Margin="5,5,0,0"
+                        Clicked="Back" />
+
+                <Label Text="Sign up | User"
+                       Margin="100,15,0,0"
+                       TextColor="White" />
+            </StackLayout>
+            
+            <Image 
+                   Source="Resources/Images/profile_picture.png"
+                   WidthRequest="172"
+                   HeightRequest="170"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                Margin="0,20,0,0"/>
+
+            <StackLayout Margin="0,20,0,0">
+                <Frame BackgroundColor="Transparent"
+                       BorderColor="White"
+                       Padding="0"
+                       WidthRequest="340"
+                       CornerRadius="30"
+                       Margin="0,20,0,0">
+                    <Entry Text="{Binding Imie}"
+                           Placeholder="Name"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center"
+                           WidthRequest="280"
+                           HorizontalOptions="StartAndExpand"
+                           Margin="30,0,0,0" />
+                </Frame>
+
+                <Frame BackgroundColor="Transparent"
+                       BorderColor="White"
+                       Padding="0"
+                       WidthRequest="340"
+                       CornerRadius="30"
+                       Margin="0,20,0,0">
+                    <Entry Text="{Binding Nazwisko}"
+                           Placeholder="Lastname"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center"
+                           WidthRequest="280"
+                           HorizontalOptions="StartAndExpand"
+                           Margin="30,0,30,0" />
+                </Frame>
+
+                <Frame BackgroundColor="Transparent"
+                       BorderColor="White"
+                       Padding="0"
+                       WidthRequest="340"
+                       CornerRadius="30"
+                       Margin="0,20,0,0">
+                    <Entry Text="{Binding Ulica}"
+                           Placeholder="Street"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center"
+                           WidthRequest="280"
+                           HorizontalOptions="StartAndExpand"
+                           Margin="30,0,30,0" />
+                </Frame>
+
+                <Frame BackgroundColor="Transparent"
+                       BorderColor="White"
+                       Padding="0"
+                       WidthRequest="340"
+                       CornerRadius="30"
+                       Margin="0,20,0,0">
+                    <Entry Text="{Binding Miasto}"
+                           Placeholder="City"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center"
+                           WidthRequest="280"
+                           HorizontalOptions="StartAndExpand"
+                           Margin="30,0,30,0" />
+                </Frame>
+
+                <Frame BackgroundColor="Transparent"
+                       BorderColor="White"
+                       Padding="0"
+                       WidthRequest="340"
+                       CornerRadius="30"
+                       Margin="0,20,0,0">
+                    <Entry Text="{Binding KodPocztowy}"
+                           Placeholder="Postcode"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           WidthRequest="280"
+                           VerticalOptions="Center"
+                           HorizontalOptions="StartAndExpand"
+                           Margin="30,0,30,0" />
+                </Frame>
+
+                <Frame BackgroundColor="Transparent"
+                       BorderColor="White"
+                       Padding="0"
+                       WidthRequest="340"
+                       CornerRadius="30"
+                       Margin="0,20,0,0">
+                    <Entry Text="{Binding Kraj}"
+                           Placeholder="Country"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center"
+                           WidthRequest="280"
+                           HorizontalOptions="StartAndExpand"
+                           Margin="30,0,30,0" />
+                </Frame>
+
+                <Frame BackgroundColor="Transparent"
+                       BorderColor="White"
+                       Padding="0"
+                       WidthRequest="340"
+                       CornerRadius="30"
+                       Margin="0,20,0,0">
+                    <Entry Text="{Binding Telefon}"
+                           Placeholder="Phone number"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center"
+                           WidthRequest="280"
+                           HorizontalOptions="StartAndExpand"
+                           Margin="30,0,30,0" />
+                </Frame>
+
+                <Frame BackgroundColor="Transparent"
+                       BorderColor="White"
+                       Padding="0"
+                       WidthRequest="340"
+                       CornerRadius="30"
+                       Margin="0,20,0,0">
+                    <Entry Text="{Binding Login}"
+                               Placeholder="Username"
+                               TextColor="White"
+                               FontAttributes="Bold"
+                               VerticalOptions="Center"
+                           WidthRequest="280"
+                           HorizontalOptions="StartAndExpand"
+                               Margin="30,0,30,0" /> 
+                </Frame>
+
+                <Frame BackgroundColor="Transparent"
+                       BorderColor="White"
+                       Padding="0"
+                       WidthRequest="340"
+                       CornerRadius="30"
+                       Margin="0,20,0,0">
+                    <Entry Text="{Binding Password}"
+                           Placeholder="Password"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center"
+                           WidthRequest="280"
+                           HorizontalOptions="StartAndExpand"
+                           Margin="30,0,30,0" />
+                </Frame>
+            </StackLayout>
+
+            <Button Text="Sign Up"
+                    Grid.Row="4"
+                    BackgroundColor="#B0B166"
+                    TextColor="Black"
+                    FontFamily="Montserrat"
+                    CornerRadius="30"
+                    WidthRequest="160"
+                    HeightRequest="40"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Margin="0,30,0,30"
+                    Command="{Binding Registry1Command}" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

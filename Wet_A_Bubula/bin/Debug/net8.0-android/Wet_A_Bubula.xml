@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Wet_A_Bubula</name>
+    </assembly>
+    <members>
+        <member name="T:Wet_A_Bubula.ViewModels.HomePage2ViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.HomePage2ViewModel.Name">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.HomePage2ViewModel.name"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.HomePage2ViewModel.PastAppointments">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.HomePage2ViewModel.pastAppointments"/>
+        </member>
+        <member name="T:Wet_A_Bubula.ViewModels.HomePageViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.HomePageViewModel.Name">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.HomePageViewModel.name"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.HomePageViewModel.FutureAppointments">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.HomePageViewModel.futureAppointments"/>
+        </member>
+        <member name="T:Wet_A_Bubula.ViewModels.LoginPageViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.LoginPageViewModel.Username">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.LoginPageViewModel.username"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.LoginPageViewModel.Password">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.LoginPageViewModel.password"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.LoginPageViewModel.Name">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.LoginPageViewModel.name"/>
+        </member>
+        <member name="T:Wet_A_Bubula.ViewModels.ProfilePageViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.ProfilePageViewModel.User">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.ProfilePageViewModel.user"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.ProfilePageViewModel.Pet">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.ProfilePageViewModel.pet"/>
+        </member>
+        <member name="T:Wet_A_Bubula.ViewModels.RegistryPage2ViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.RegistryPage2ViewModel.AnimalSpeciesList">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.RegistryPage2ViewModel.animalSpeciesList"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.RegistryPage2ViewModel.SelectedSpecies">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.RegistryPage2ViewModel.selectedSpecies"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.RegistryPage2ViewModel.Animal">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.RegistryPage2ViewModel.animal"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.RegistryPage2ViewModel.Plec">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.RegistryPage2ViewModel.plec"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.RegistryPage2ViewModel.Gatunek">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.RegistryPage2ViewModel.gatunek"/>
+        </member>
+        <member name="T:Wet_A_Bubula.ViewModels.RegistryPageViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.RegistryPageViewModel.Imie">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.RegistryPageViewModel.imie"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.RegistryPageViewModel.Nazwisko">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.RegistryPageViewModel.nazwisko"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.RegistryPageViewModel.Ulica">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.RegistryPageViewModel.ulica"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.RegistryPageViewModel.Miasto">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.RegistryPageViewModel.miasto"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.RegistryPageViewModel.KodPocztowy">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.RegistryPageViewModel.kodPocztowy"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.RegistryPageViewModel.Kraj">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.RegistryPageViewModel.kraj"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.RegistryPageViewModel.Telefon">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.RegistryPageViewModel.telefon"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.RegistryPageViewModel.Login">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.RegistryPageViewModel.login"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.RegistryPageViewModel.Password">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.RegistryPageViewModel.password"/>
+        </member>
+        <member name="T:Wet_A_Bubula.ViewModels.VisitsPageViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.VisitsPageViewModel.TreatmentList">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.VisitsPageViewModel.treatmentList"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.VisitsPageViewModel.SelectedTreatment">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.VisitsPageViewModel.selectedTreatment"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.VisitsPageViewModel.VeterinarianList">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.VisitsPageViewModel.veterinarianList"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.VisitsPageViewModel.SelectedVeterinarian">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.VisitsPageViewModel.selectedVeterinarian"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.VisitsPageViewModel.DataNowejWizyty">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.VisitsPageViewModel.dataNowejWizyty"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.VisitsPageViewModel.CzasNowejWizyty">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.VisitsPageViewModel.czasNowejWizyty"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.VisitsPageViewModel.Powod">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.VisitsPageViewModel.powod"/>
+        </member>
+        <member name="P:Wet_A_Bubula.ViewModels.VisitsPageViewModel.Idwe">
+            <inheritdoc cref="F:Wet_A_Bubula.ViewModels.VisitsPageViewModel.idwe"/>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PastAppointments">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PastAppointments" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FutureAppointments">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FutureAppointments" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Username">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Username" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.User">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "User" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Pet">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Pet" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AnimalSpeciesList">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AnimalSpeciesList" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedSpecies">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedSpecies" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Animal">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Animal" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Plec">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Plec" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Gatunek">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Gatunek" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Imie">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Imie" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Nazwisko">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Nazwisko" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Ulica">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Ulica" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Miasto">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Miasto" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.KodPocztowy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "KodPocztowy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Kraj">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Kraj" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Telefon">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Telefon" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Login">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Login" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TreatmentList">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TreatmentList" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedTreatment">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedTreatment" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.VeterinarianList">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "VeterinarianList" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedVeterinarian">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedVeterinarian" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DataNowejWizyty">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DataNowejWizyty" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CzasNowejWizyty">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CzasNowejWizyty" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Powod">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Powod" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Idwe">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Idwe" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PastAppointments">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PastAppointments" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FutureAppointments">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FutureAppointments" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Username">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Username" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.User">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "User" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Pet">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Pet" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AnimalSpeciesList">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AnimalSpeciesList" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedSpecies">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedSpecies" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Animal">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Animal" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Plec">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Plec" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Gatunek">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Gatunek" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Imie">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Imie" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Nazwisko">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Nazwisko" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Ulica">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Ulica" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Miasto">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Miasto" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.KodPocztowy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "KodPocztowy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Kraj">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Kraj" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Telefon">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Telefon" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Login">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Login" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TreatmentList">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TreatmentList" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedTreatment">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedTreatment" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.VeterinarianList">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "VeterinarianList" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedVeterinarian">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedVeterinarian" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DataNowejWizyty">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DataNowejWizyty" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CzasNowejWizyty">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CzasNowejWizyty" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Powod">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Powod" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Idwe">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Idwe" generated properties.</summary>
+        </member>
+    </members>
+</doc>
